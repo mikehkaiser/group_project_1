@@ -1,0 +1,44 @@
+/* nav styling start */
+/* nav styling start */
+nav {
+    margin: 0 3%
+}
+
+ul{
+    display: flex;
+}
+/* nav styling end */
+/* nav styling end */
+
+
+/* footer styling start */
+/* footer styling start */
+.footer {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    color: white;
+    justify-items: center
+}
+
+.footer-contents{
+    display: flex;
+    flex-direction:column;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+}
+
+.footer-contents>h2{
+    text-align: center;
+    display: flex;
+}
+
+span{
+    color: white;
+    font-size: 400%;
+}
+/* footer styling */
+/* footer styling */
