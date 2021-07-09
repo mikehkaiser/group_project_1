@@ -1,0 +1,45 @@
+/* nav styling start */
+/* nav styling start */
+nav {
+    margin: 0 3%
+}
+
+ul{
+    display: flex;
+}
+/* nav styling end */
+/* nav styling end */
+
+
+
+/* footer styling start */
+/* footer styling start */
+.footer {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    color: white;
+}
+
+/* #footer-contents{
+    display: flex;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* position: relative; */
+
+#try-double-tap{
+    text-align: center
+}
+
+/* .footer-buttons{
+    align-items: center;
+} */
+
+span{
+    color: white;
+    font-size: 100%;
+}
+/* footer styling end */
+/* footer styling end */
