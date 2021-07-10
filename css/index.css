@@ -1,3 +1,11 @@
+/* full page styling */
+a{
+    text-decoration: none
+}
+/* full page styling */
+
+
+
 /* nav styling start */
 /* nav styling start */
 nav {
@@ -10,7 +18,74 @@ ul{
 /* nav styling end */
 /* nav styling end */
 
+#sign-up-button{
+    padding-right: 10px
+}
 
+#body-focus-text{
+    flex-direction: column
+}
+
+.focus-icon-container{
+    display: flex;
+    margin: auto
+}
+
+#focus-icons{
+    display: flex;
+    height: 60%;
+    width: auto;
+    align-self: center;
+}
+
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    padding: 10px
+}
+
+.icon-button-container {
+    display: flex;
+    justify-content: space-around
+}
+
+.icons-with-radius{
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    border: 1px solid gray;
+    border-radius: 5px
+}
+
+.icons-with-radius>img{
+    display: flex;
+    height: 40%;
+    width: 40px;
+    align-self: center;
+    margin: 5px 0
+}
+
+.payment-container{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+#payment-text{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    color: white
+}
+
+#oayment-image{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
 
 /* footer styling start */
 /* footer styling start */
