@@ -1,0 +1,64 @@
+.giant-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-half-div{
+    background-color: blue;
+    flex: 50%;
+    height: 100vh;
+}
+
+.right-half-div{
+    background-color: yellowgreen;
+    flex: 50%;
+    height: 100vh;
+}
+
+@media (max-width: 576px) {
+    .giant-container{
+        flex-direction:column-reverse;
+    }
+    .left-half-div, .right-half-div{
+        flex: 100%;
+    }
+}
+
+.sign-up-div h2{
+    font-size: 2.7vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 230px;
+    line-height: 2;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign-up-div span{
+    margin-left: 9%;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    font-size: 2.7vh;
+    margin-right: 230px;
+}
+
+.sign-up-button{
+    color: white;
+    border-radius: 20px;
+    border-width: 2.5px;
+    border-style: solid;
+    width: 32%;
+    max-width: 220px;
+    background-color: blue;
+    border-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rocket-div img{
+    height: 50vh;
+    margin-left: 8vw;
+    margin-top: 5%;
+}
