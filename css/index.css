@@ -1,4 +1,10 @@
 /* full page styling */
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1240px;
+}
+
 a{
     text-decoration: none
 }
@@ -9,37 +15,48 @@ a{
 /* nav styling start */
 /* nav styling start */
 nav {
-    margin: 0 3%
+    margin: 0 3%;
+    background-color: white;
 }
 
-ul{
+.nav-item {
+    color: gray
+}
+/* nav styling end */
+/* nav styling end */
+
+.body-container{
     display: flex;
-}
-/* nav styling end */
-/* nav styling end */
-
-.row{
-    margin:0
+    flex-wrap:wrap
 }
 
-#sign-up-button{
-    padding-right: 10px
+.sub-billing>span>a{
+    display: flex;
+    color: gray;
+    text-decoration: none
 }
+
 
 #body-focus-text{
     flex-direction: column
 }
 
-.focus-icon-container{
+.focus-icon-box{
     display: flex;
     margin: auto
 }
 
 #focus-icons{
     display: flex;
-    height: 60%;
+    height: 50%;
     width: auto;
     align-self: center;
+}
+
+.sub-billing{
+    display: flex;
+    color: gray;
+    padding-top: 2%
 }
 
 .explore-container{
@@ -51,7 +68,14 @@ ul{
 
 .icon-button-container {
     display: flex;
-    justify-content: space-around
+}
+
+
+
+.explore-icon-row{
+    display: flex;
+    justify-items: center;
+    flex-wrap: nowrap;
 }
 
 .icons-with-radius{
@@ -66,7 +90,6 @@ ul{
     display: flex;
     height: 40%;
     width: 40px;
-    align-self: center;
     margin: 5px 0
 }
 
@@ -78,7 +101,7 @@ ul{
     border: 1px solid black
 }
 
-.right-half-div{
+#payment-text{
     display: flex;
     flex-direction: column;
     background-color: blue;
