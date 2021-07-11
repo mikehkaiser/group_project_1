@@ -22,6 +22,19 @@ body {
     flex: 100%;
 }
 
+/* nav styling start */
+/* nav styling start */
+nav {
+    margin: 0;
+    background-color: white;
+}
+
+.nav-item {
+    color: gray
+}
+/* nav styling end */
+/* nav styling end */
+
 /* Left half div styling starts here */
 
 h1 {
