@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg d-flex navbar-light bg-white">
+    <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg nav-justified navbar-light bg-white">
         <a class="navbar-brand" href="#">
             <img src="assets/CRM-Main/Logo-1.png">
         </a>
@@ -25,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="collapse navbar-collapse d-flex justify-content-around">
+            <div class="collapse navbar-collapse d-flex">
                 <a class="nav-item nav-link active" aria-current="page" href="#">Home</a>
                 <a class="nav-item nav-link" href="#">Features</a>
                 <a class="nav-item nav-link" href="#">Pricing</a>
@@ -34,7 +35,7 @@
             </div>
             <div class="btn nav-buttons">
                 <button type="button" class="btn btn-outline-primary me-md-2">Sign In</button>
-                <a class="btn btn-primary" href="#" role="button">Try it Free</a>
+                <a class="btn btn-primary" href="sign_in.html" role="button">Try it Free</a>
             </div>
         </div>
     </nav>
@@ -45,10 +46,10 @@
     <!-- main body content starts here -->
 
     <!-- first row - focus on your business... and icons to right -->
-    <div class="container body-container d-flex">
+    <div class="container body-container">
         <div class="row">
             <!-- makes initial container, sets display to flex, -->
-            <div class="col-12 col-md-6 d-flex justify-content-center" id="body-focus-text">
+            <div class="col-12 col-md-6 d-flex justify-content-center py-2 px-4" id="body-focus-text">
                 <div class="d-flex" id="focus-on-your-business">
                     <h1>Focus On<br>Your Business</h1>
                 </div>
@@ -62,7 +63,8 @@
                 </div>
                 <div class="d-flex gap-2 d-md-block">
                     <!-- add padding between icon and text in chat button -->
-                    <a class="btn btn-lg btn-primary me-md-2" href="#" role="button"><span id="sign-up-button">Sign Up
+                    <a class="btn btn-lg btn-primary me-md-2" href="sign_up.html" role="button"><span
+                            id="sign-up-button">Sign Up
                             Free </span><i class="bi bi-chevron-double-right"></i></a>
                     <a class="btn btn-lg btn-outline-primary" href="#" role="button" id="chat-btn"><i
                             class="bi bi-chat-dots-fill"></i> Chat With
@@ -72,7 +74,8 @@
                             In</a></span></p>
                 <div class="d-flex">
                     <!-- change to icons from asset folder -->
-                    <p>Free 14 Day Trial<span>&#183;</span>Manage Customers in Minutes<span>&#183;</span>Cancel at
+                    <p>Free 14 Day Trial<i class="bi bi-dot"></i>Manage Customers in Minutes<i
+                            class="bi bi-dot"></i>Cancel at
                         Anytime
                     </p>
                 </div>
@@ -84,13 +87,15 @@
     </div>
 
     <!-- second row col-6 with top border and text-->
-    <div class="col-6 offset-3 d-flex justify-content-center explore-container">
-        <div class="col-8 offset-2 d-flex text-center" id="explore-heading">
-            <h2>Start to Explore Double Tap</h2>
-        </div>
-        <div class="col-10 offset-1 d-flex text-center" id="explore-text">
-            <p>A new and better way for small business to manage their customer base, payments, and keep track of
-                internal tasks</p>
+    <div class="container d-flex explore-container">
+        <div class="row justify-content-center">
+            <div class="col-6 d-flex justify-content-center" id="explore-heading">
+                <h2>Start to Explore Double Tap</h2>
+            </div>
+            <div class="col-8 d-flex text-center" id="explore-text">
+                <p>A new and better way for small business to manage their customer base, payments, and keep track of
+                    internal tasks</p>
+            </div>
         </div>
     </div>
 
@@ -122,32 +127,28 @@
 
     <div class="container payment-container">
         <!-- makes initial container, sets display to flex, -->
-        <div class="row">
-            <div class="payment-image col-12 col-md-6">
+        <div class="row col-10 offset-1 rounded payment-row">
+            <div class="col-12 col-md-4" id="payment-image-div">
                 <!--div holding the image, left side of the container-->
                 <img class="img-fluid" src="assets/CRM-Main/credit-card-picture@2x.png" id="man-with-credit-card"
                     alt="graphic of man holding credit card">
             </div>
-            <div class="col-6 justify-content-center col-12 col-md-6" id="payment-text">
+            <div class="justify-content-center col-12 col-md-8 payment-text">
                 <!--Right side container for text-->
-                <div class="d-flex">
-                    <h2>Start accepting payments with Ease</h2>
-                </div>
-                <div class="d-flex">
-                    <p>Deliver the world of payment options and seamless checkout experiences, making it easy for
-                        your
-                        customers to pay you for your products and services.</p>
-                </div>
-                <div class="d-flex payment-list">
+                <h2>Start accepting payments with Ease</h2>
+                <p>Deliver the world of payment options and seamless checkout experiences, making it easy for
+                    your
+                    customers to pay you for your products and services.</p>
+                <div class="payment-list">
                     <p>- Accept credit & debit cards, Paypal, ACH, Apple Pay and more with the flick of a
                         switch</p>
                     <p>- Process transactions in up to 32 different currencies</p>
                     <p>- Integrate with popular payment gateways like stripe and Braintree</p>
                     <p>- Select from a variety of different checkout options and experiences</p>
                 </div>
-                <div class="d-grid col-5 offset-1 learn-more-button-container">
+                <div class="d-grid col-5 learn-more-button-container">
                     <!-- button -->
-                    <a href="#" class="btn learn-more-btn d-flex text-center text-nowrap" role="button">Learn More
+                    <a href="#" class="btn learn-more-btn d-flex text-nowrap" role="button">Learn More
                         <span><i class="bi bi-chevron-right"></i></span></i></a>
                 </div>
             </div>
@@ -160,28 +161,28 @@
     </div>
 
     <!-- top row of 2 learn more buttons, each will be columns, image on top, text beneath with a button  -->
-    <div class="col-8 offset-2 four-icon-container-top d-flex">
-        <div class="row four-icon-top-row">
-            <div class="email-dashboards-col text-center">
+    <div class="container four-icon-container-top d-flex">
+        <div class="row four-icon-top-row justify-content-around">
+            <div class="col-12 col-md-4 email-dashboards-col text-center">
                 <div class="email-icon-div justify-content-center">
                     <img src="assets/CRM-SignUp/Ellipse -1.png" class="img-ring">
                     <img src="assets/CRM-Main/envelope-open.svg" class="layered-image-top">
                 </div>
                 <h3>Email Dashboard</h3>
                 <p>Automate client responses and keep track of any communication your team has with a client.</p>
-                <div class="d-grid col-6 mx-auto">
+                <div class="d-grid mx-auto">
                     <a href="#" class="btn btn-outline-dark learn-more-btn text-nowrap" role="button">Learn More
                         <span><i class="bi bi-chevron-right"></i></span></i></a>
                 </div>
             </div>
-            <div class="task-management-col text-center">
+            <div class="col-12 col-md-4 task-management-col text-center">
                 <div class="task-management-div justify-content-center">
                     <img src="assets/CRM-SignUp/Ellipse -1.png" class="img-ring">
                     <img src="assets/CRM-Main/clipboard-check.svg" class="layered-image-top">
                 </div>
                 <h3>Task Management</h3>
                 <p>Automate client responses and keep track of any communication your team has with a client.</p>
-                <div class="d-grid col-6 mx-auto">
+                <div class="d-grid mx-auto">
                     <a href="#" class="btn btn-outline-dark learn-more-btn text-nowrap" role="button">Learn More
                         <span><i class="bi bi-chevron-right"></i></span></i></a>
                 </div>
@@ -190,31 +191,31 @@
     </div>
     <!-- bottom row of 2 learn more buttons, each will be columns, image on top, text beneath with a button -->
 
-    <div class="col-8 offset-2 four-icon-container-bottom d-flex">
-        <div class="row four-icon-bottom-row">
-            <div class="analytics-col text-center">
+    <div class="container four-icon-container-bottom d-flex">
+        <div class="row four-icon-bottom-row justify-content-around">
+            <div class="col-12 col-md-4 analytics-col text-center">
                 <div class="analytics-div justify-content-center">
                     <img src="assets/CRM-SignUp/Ellipse -1.png" class="img-ring">
                     <img src="assets/CRM-Main/bar-chart-steps.svg" class="layered-image-top">
                 </div>
                 <h3>Analytics</h3>
                 <p>Automate client responses and keep track of any communication your team has with a client.</p>
-                <div class="d-grid col-6 mx-auto">
+                <div class="d-grid mx-auto">
                     <a href="#" class="btn btn-outline-dark learn-more-btn text-nowrap" role="button">Learn More
                         <span><i class="bi bi-chevron-right"></i></span></i></a>
                 </div>
             </div>
 
-            <div class="calendar-col text-center">
+            <div class="col-12 col-md-4 calendar-col text-center">
                 <div class="calendar-div justify-content-center">
                     <img src="assets/CRM-SignUp/Ellipse -1.png" class="img-ring">
                     <img src="assets/CRM-Main/calendar3-event.svg" class="layered-image-top">
                 </div>
                 <h3>Project Calendars</h3>
                 <p>Automate client responses and keep track of any communication your team has with a client.</p>
-                <div class="d-grid col-6 mx-auto">
-                    <a href="#" class="btn btn-outline-dark learn-more-btn" role="button">Learn More
-                        <span><i class="bi bi-chevron-right"></i></span></a>
+                <div class="d-grid mx-auto">
+                    <a href="#" class="btn btn-outline-dark learn-more-btn text-nowrap" role="button">Learn More
+                        <span><i class="bi bi-chevron-right"></i></span></i></a>
                 </div>
             </div>
         </div>
@@ -234,15 +235,17 @@
         <div class="d-flex justify-content-center">
             <p>Let's Get Started</p>
         </div>
-        <div class="d-flex gap-2 d-md-block footer-buttons text-center">
+        <div class="d-flex gap-2 d-md-block justify-content-center footer-buttons text-center">
             <!-- delete blasses classes and style to match mockup -->
             <!-- add padding between icon and text in chat button -->
-            <button class="btn btn-primary" type="button">Get Started</button>
-            <button class="btn btn-primary" type="button"><i class="bi bi-chat-left-dots-fill"></i>Chat With Us</button>
+            <button class="btn btn-primary green me-md-2" type="button">Get Started</button>
+            <button class="btn btn-primary" type="button"><i class="bi bi-chat-left-dots-fill"></i> Chat With
+                Us</button>
         </div>
-        <div class="d-flex justify-content-center">
-            <p>Free 14 Day Trial<span class="divider">&#183;</span>Manage Customers in Minutes<span
-                    class="divider">&#183;</span>Cancel at Anytime
+        <div class="d-flex justify-content-center pad">
+            <p>Free 14 Day Trial<span><img class="white-circle"
+                        src="assets/CRM-How-it-works/Ellipse 42.png"></span>Manage Customers in Minutes<span><img
+                        class="white-circle" src="assets/CRM-How-it-works/Ellipse 42.png"></span>Cancel at Anytime
             </p>
         </div>
     </div>

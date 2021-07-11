@@ -62,9 +62,12 @@ nav {
 .explore-container{
     display: flex;
     flex-direction: column;
-    border-top: 1px solid black;
-    padding: 10px
+    border-top: 1px solid #ccc;
+    border-top-width: 50%;
+    margin: 2%
 }
+
+
 
 .icon-button-container {
     display: flex;
@@ -81,55 +84,86 @@ nav {
 .icons-with-radius{
     display: flex;
     flex-direction: column;
-    max-height: fit-content;
+    align-items: center;
     border: 1px solid gray;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .icons-with-radius>img{
     display: flex;
     height: 40%;
     width: 40px;
-    margin: 5px 0
+    margin: 5px 0;
+    margin-bottom: 20%
+}
+
+.icons-with-radius>p{
+    margin-bottom: 0;
 }
 
 .payment-container{
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+.payment-row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
     border-radius: 5px;
-    border: 1px solid black
+    align-items: center
 }
 
-#payment-text{
+
+.payment-text{
     display: flex;
     flex-direction: column;
     background-color: blue;
     color: white;
-    padding: 0 5% 0;
+    padding: 5% 5%;
+    font-size: medium
 }
 
-#payment-image{
-    height:fit-content;
-    width: auto;
-    height: auto;
-    max-width: 80%;
-    max-height: 80%
+.payment-text>h2{
+    font-size:2rem
 }
 
-.left-half-div {
+.payment-text>p{
+    font-weight:bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+#payment-image-div{
+    background-color: white;
+    padding: 0
+}
+
+#man-with-credit-card{
     display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
-    height: 100%;
-    padding: 10% 0 10%;
-    justify-content: center
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    padding: 0
 }
 
 .payment-list{
     display: flex;
     flex-direction: column;
-    
+    font-size: small;
+    margin-bottom: 2rem
+}
+
+.payment-list>p{
+    margin: 0
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed > li:before {
+    content: "-";
 }
 
 .learn-more-button-container{
@@ -144,11 +178,14 @@ nav {
 
 .learn-more-button-container>.learn-more-btn>span{
     display: flex;
-    padding-left: 40%
+    color: white
 }
+
+
 
 .learn-more-btn>span{
     padding-left: 10%;
+    color: black
 }
 
 .four-icon-top-row, .four-icon-bottom-row{
@@ -161,13 +198,13 @@ nav {
 .email-dashboards-col, .task-management-col, .analytics-col, .calendar-col {
     display: flex;
     flex-direction: column;
-    width: 50%;
     padding: 2% 0 2%;
 }
 
 .email-icon-div, .task-management-div, .analytics-div, .calendar-div{
     display: flex;
-    object-fit: contain;
+    /* object-fit: contain; */
+    padding: 2em
 }
 
 
@@ -194,27 +231,28 @@ nav {
     background-color: blue;
     width: 100%;
     height: auto;
-    padding: 2%;
     color: white;
+    padding: 3%;
+    margin: 0
 }
 
-/* #footer-contents{
-    display: flex;
-    /* text-align: center; */
-    /* align-items: center; */
-    /* position: relative; */
+.green{
+    background-color: rgb(159, 236, 42)
+}
 
 #try-double-tap{
     text-align: center
 }
 
-/* .footer-buttons{
-    align-items: center;
-} */
-
-.divider{
+span{
     color: white;
     font-size: 100%;
+    padding: 0 10px;
+}
+
+.white-circle{
+    width: 8px;
+    height: 8px;
 }
 /* footer styling end */
 /* footer styling end */
