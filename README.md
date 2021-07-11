@@ -28,7 +28,7 @@ We were also challenged to create a responsive design using Bootstrap or CSS Gri
     - We realized that coordinating on a firm schedule
       for when to both push to main & pull as a team could eliminate some complications.
 - We also became more savvy with troubleshooting Github errors in general, and were able
-  to overcome some issues by running<br>local manual merges.<br>
+  to overcome some issues by running local manual merges.<br>
 - Utilizing Bootstrap Flex Box more in general was a learning experience for our group.</li>
 
     <img src="assets/take_a_bow.png" alt="Take a Bow">
