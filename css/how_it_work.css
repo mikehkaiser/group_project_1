@@ -5,9 +5,10 @@ nav {
     background-color: white;
 }
 
-.radius{
-    border-radius: 10px;
+.nav-item {
+    color: gray
 }
+
 
 #colors{
     color: grey;
@@ -19,6 +20,8 @@ ul{
 .sign{
     text-decoration: none;
 }
+=======
+
 /* nav styling end */
 /* nav styling end */
 
@@ -169,26 +172,17 @@ ul{
     background-color: blue;
     width: 100%;
     height: auto;
-    padding: 2%;
     color: white;
-    /* justify-items: center */
-}
-
-/* .footer-contents{
-    display: flex;
-    flex-direction:column;
-    flex-flow: column;
-    align-items: center;
-    position: relative;
-} */
-
-.footer-contents>h2{
-    text-align: center;
-    display: flex;
+    padding: 3%;
+    margin: 0
 }
 
 .green{
-    background-color: rgb(159, 236, 42);
+    background-color: rgb(159, 236, 42)
+}
+
+#try-double-tap{
+    text-align: center
 }
 
 span{
@@ -201,5 +195,5 @@ span{
     width: 8px;
     height: 8px;
 }
-/* footer styling */
-/* footer styling */
+/* footer styling end */
+/* footer styling end */

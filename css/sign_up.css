@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.giant-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-half-div{
+    padding-top: 2%;
+    height: 100vh;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.right-half-div{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 60%;
+    flex: 100%;
+}
+
+/* nav styling start */
+/* nav styling start */
+nav {
+    margin: 0;
+    background-color: white;
+}
+
+.nav-item {
+    color: gray
+}
+/* nav styling end */
+/* nav styling end */
+
+/* Left half div styling starts here */
+
+h1 {
+    text-align: center;
+    margin-top: 8%;
+    margin-right: 12%;
+    font-size: 50px;
+}
+
+.form-div {
+    display: flex;
+    justify-items: center;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+}
+
+input {
+    margin: 6% auto;
+    border-radius: 20px;
+    border-color: rgb(161, 161, 161);
+    border-style: solid;
+    border-width: 1px;
+    width: 310px;
+    height: 43px;
+    background: url("../assets/CRM-SignIn/Page-1.png") no-repeat left 30px center;
+    background-size: 12px;
+    padding-left: 50px;
+}
+
+.sign-up-div{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-button {
+    color: white;
+    border-radius: 20px;
+    border-width: 2.5px;
+    border-style: solid;
+    width: 20%;
+    max-width: 220px;
+    min-width: 10vw;
+    margin-top: 5%;
+    background-color: blue;
+    border-color: blue;
+}
+
+.left-half-div p{
+    text-align: center;
+    margin: 6% auto;
+    font-size: 12px;
+}
+
+.social-container{
+    display: flex;
+}
+
+.social-container button{
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    width: 3.5vw;
+    background-color: white;
+    padding: 8px;
+    margin: auto 15px;
+}
+
+.facebook {
+    width: 1vw;
+}
+
+.twitter {
+    width: 2vw;
+}
+
+    /* left half styling ends here */
+
+    /* right half styling starts here */
+
+.right-half-div img{
+        width: 47vw;
+        margin-top: 5%;
+        margin-left: 10%;
+}
+
+    /* right half styling ends here */
+
+
+@media (max-width: 700px) {
+    .giant-container{
+        flex-direction:column-reverse;
+        height: 200vh;
+    }
+    .right-half-div{
+        width: auto;
+    }
+    .left-half-div{
+        flex: 100%;
+        justify-items: center;
+        width: 100vw;
+        padding: 0;
+    }
+    /* .right-half-div{
+    } */
+    h1 {
+        margin-right: auto;
+    }
+    .sign-up-button{
+        width: 20vw;
+    }
+    .button-div{
+        margin: auto;
+    }
+    input {
+        margin: 5% auto;
+    }
+    .social-container button{
+        width: 6vw;
+        margin: auto 10px;
+    }
+    .right-half-div img{
+        width: 60vw;
+        margin: 200px auto 0 auto;
+    }
+}
