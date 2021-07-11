@@ -43,6 +43,10 @@ ul{
     padding-right: 5px;
 }
 
+.pad{
+
+}
+
 .sign-in{
     text-decoration: none;
     padding-left: 5px;
@@ -129,9 +133,19 @@ ul{
     display: flex;
 }
 
+.green{
+    background-color: rgb(159, 236, 42);
+}
+
 span{
     color: white;
     font-size: 100%;
+    padding: 0 10px;
+}
+
+.white-circle{
+    width: 8px;
+    height: 8px;
 }
 /* footer styling */
 /* footer styling */
