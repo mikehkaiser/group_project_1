@@ -1,4 +1,10 @@
 /* full page styling */
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1240px;
+}
+
 a{
     text-decoration: none
 }
@@ -9,33 +15,48 @@ a{
 /* nav styling start */
 /* nav styling start */
 nav {
-    margin: 0 3%
+    margin: 0 3%;
+    background-color: white;
 }
 
-ul{
+.nav-item {
+    color: gray
+}
+/* nav styling end */
+/* nav styling end */
+
+.body-container{
     display: flex;
+    flex-wrap:wrap
 }
-/* nav styling end */
-/* nav styling end */
 
-#sign-up-button{
-    padding-right: 10px
+.sub-billing>span>a{
+    display: flex;
+    color: gray;
+    text-decoration: none
 }
+
 
 #body-focus-text{
     flex-direction: column
 }
 
-.focus-icon-container{
+.focus-icon-box{
     display: flex;
     margin: auto
 }
 
 #focus-icons{
     display: flex;
-    height: 60%;
+    height: 50%;
     width: auto;
     align-self: center;
+}
+
+.sub-billing{
+    display: flex;
+    color: gray;
+    padding-top: 2%
 }
 
 .explore-container{
@@ -47,7 +68,14 @@ ul{
 
 .icon-button-container {
     display: flex;
-    justify-content: space-around
+}
+
+
+
+.explore-icon-row{
+    display: flex;
+    justify-items: center;
+    flex-wrap: nowrap;
 }
 
 .icons-with-radius{
@@ -62,7 +90,6 @@ ul{
     display: flex;
     height: 40%;
     width: 40px;
-    align-self: center;
     margin: 5px 0
 }
 
@@ -78,14 +105,87 @@ ul{
     display: flex;
     flex-direction: column;
     background-color: blue;
-    color: white
+    color: white;
+    padding: 0 5% 0;
 }
 
-#oayment-image{
-    display: flex;
-    margin-top: 2%;
-    margin-bottom: 2%
+#payment-image{
+    height:fit-content;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-height: 80%
 }
+
+.left-half-div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: 100%;
+    padding: 10% 0 10%;
+    justify-content: center
+}
+
+.payment-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.learn-more-button-container{
+    display: flex
+}
+
+.learn-more-button-container>.learn-more-btn{
+    display: flex;
+    color: white;
+    border: 2px solid white;
+}
+
+.learn-more-button-container>.learn-more-btn>span{
+    display: flex;
+    padding-left: 40%
+}
+
+.learn-more-btn>span{
+    padding-left: 10%;
+}
+
+.four-icon-top-row, .four-icon-bottom-row{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-content: center;
+}
+
+.email-dashboards-col, .task-management-col, .analytics-col, .calendar-col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2% 0 2%;
+}
+
+.email-icon-div, .task-management-div, .analytics-div, .calendar-div{
+    display: flex;
+    object-fit: contain;
+}
+
+
+.img-ring{
+    display: flex;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%
+}
+
+.layered-image-top{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    height: 10%
+}
+
 
 /* footer styling start */
 /* footer styling start */
@@ -112,7 +212,7 @@ ul{
     align-items: center;
 } */
 
-span{
+.divider{
     color: white;
     font-size: 100%;
 }
