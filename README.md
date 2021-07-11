@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-
-<style>
-    body{
-        font-family: 'Roboto', sans-serif;
-        background-color: azure;
-    }
-    h1{
-        text-align: center;
-        color: blue;
-    }
-    h2{
-        text-align: center;
-        color: rgb(228, 195, 9);
-    }
-    h3{
-        color: blue;
-    }
-    img{
-        width: 20%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
-</head>
-<body>
-    <h1>Welcome to our first group project!  <br>We hope you enjoy our collaboration!</h1>
+Welcome to our first group project!  We hope you enjoy our collaboration!
     
-    <h2>-- -- Mike Kaiser -- -- Noah Rosenbaum -- -- Zach Porras -- --</h2>
+ -- -- Mike Kaiser -- -- Noah Rosenbaum -- -- Zach Porras -- --
     
     <br>
 
