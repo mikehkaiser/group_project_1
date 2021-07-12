@@ -8,6 +8,20 @@ nav {
 .nav-item {
     color: gray
 }
+
+
+#colors{
+    color: grey;
+}
+ul{
+    display: flex;
+}
+
+.sign{
+    text-decoration: none;
+}
+=======
+
 /* nav styling end */
 /* nav styling end */
 
@@ -30,13 +44,24 @@ nav {
     border-radius: 2px;
 }
 
+.space{
+    padding-right: 15px;
+}
 #space{
     padding-right: 5px;
+    height: 41px;
 }
 
-.pad{
-
+#small{
+    font-size: 80%;
 }
+.dot {
+    height: 17px;
+    width: 1px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 .sign-in{
     text-decoration: none;
@@ -60,6 +85,7 @@ nav {
 #height{
     height: 400px;
 }
+
 .info{
     border: 1px solid grey;
     border-radius: 20px;
@@ -73,18 +99,58 @@ nav {
     width: 100%;
     justify-items: center;
     color: white;
+    font-size: 140%;
 }
+
+.useful-info-new{
+    background-color: blue;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    justify-items: center;
+    color: white;
+    font-size: 140%;
+    margin-left: 160px;
+}
+
+
 /* The 2 big boxes */
 #info{
     text-align: center;
     padding-right: 100px;
 }
 
+.lady-pic{
+    padding: 80px 0;
+}
+.pic{
+    padding: 0%;
+}
+
 #useful-info{
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 80%;
 }
+
+#useful-info-1{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 70%;
+}
+
+
+#img-name{
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    padding: 0
+}
+
+.take-payment{
+    padding-right: 500px;
+}
+
 
 /* The box with Get Paid Sooner */
 .info1{
