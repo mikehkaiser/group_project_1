@@ -29,6 +29,7 @@ We were also challenged to create a responsive design using Bootstrap or CSS Gri
       for when to both push to main & pull as a team could eliminate some complications.
 - We also became more savvy with troubleshooting Github errors in general, and were able
   to overcome some issues by running local manual merges.<br>
-- Utilizing Bootstrap Flex Box more in general was a learning experience for our group.</li>
+- Utilizing Bootstrap Flex Box more in general was a learning experience for our group.
+- Resolving merge conflicts are best done when all parties are looking at them, if the branch manager is not 100% certain of how to resolve.
 
     <img src="assets/take_a_bow.png" alt="Take a Bow">
